@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "name": "John Philip",
+      "email": "john@gmail.com",
+      "password": "john",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "name": "Balamurugan",
+      "email": "bala@gmail.com",
+      "password": "bala",
+      "role": "student",
+      "id": 2
+    },
+    {
+      "name": "Franklin",
+      "email": "frank@gmail.com",
+      "password": "frank",
+      "role": "student",
+      "id": 3
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Advanced Javascript",
+      "duration": "8 Weeks"
+    },
+    {
+      "id": 2,
+      "title": "HTML Basics",
+      "duration": "3 Weeks"
+    },
+    {
+      "id": 5,
+      "title": "Master in CSS",
+      "duration": "3 Weeks"
+    },
+    {
+      "title": "Python Basics",
+      "duration": "3 Weeks",
+      "id": 7
+    }
+  ],
+  "enrollments": [
+    {
+      "userid": 2,
+      "courseid": 5,
+      "id": 5
+    },
+    {
+      "userid": 3,
+      "courseid": 1,
+      "id": 6
+    },
+    {
+      "userid": 2,
+      "courseid": 7,
+      "id": 8
+    },
+    {
+      "userid": 2,
+      "courseid": 2,
+      "id": 9
+    }
+  ]
+}
